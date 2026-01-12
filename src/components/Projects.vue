@@ -23,7 +23,7 @@ const projects = ref([
   {
     id: 1,
     title: 'Website für den Charlies Campus Filmclub',
-    description: 'Gibt Informationen über den Charlies Campus Filmclub. Neue Veranstaltungen lassen sich über eine Supabase Einbindung hinzufügen, bearbeiten und löschen.',
+    description: 'Zeigt Informationen über den Charlies Campus Filmclub. Neue Veranstaltungen lassen sich über eine Supabase Einbindung hinzufügen, bearbeiten und löschen.',
     imageUrl: project1Img,
   },
   {
