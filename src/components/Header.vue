@@ -8,11 +8,11 @@
         <span class="bar"></span>
       </button>
       <nav :class="{ 'nav-links': true, 'active': isMenuOpen }">
-        <a href="#home" @click="closeMenu">Home</a>
-        <a href="#about" @click="closeMenu">Über mich</a>
-        <a href="#skills" @click="closeMenu">Skills</a>
-        <a href="#projects" @click="closeMenu">Projekte</a>
-        <a href="#contact" @click="closeMenu">Kontakt</a>
+        <router-link to="/" @click="closeMenu">Home</router-link>
+        <router-link to="/#about" @click="closeMenu">Über mich</router-link>
+        <router-link to="/#skills" @click="closeMenu">Skills</router-link>
+        <router-link to="/#projects" @click="closeMenu">Projekte</router-link>
+        <router-link to="/#contact" @click="closeMenu">Kontakt</router-link>
       </nav>
     </div>
   </header>
