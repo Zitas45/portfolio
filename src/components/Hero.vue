@@ -28,6 +28,7 @@ export default {
   justify-content: space-between;
   padding: 4rem 10%; /* Mehr Abstand an den Seiten */
   background-color: #2c3e50; /* Gleicher Ton wie Header */
+  background-image: -webkit-repeating-linear-gradient(140deg, rgba(82, 96, 173, 0.1337), rgba(96, 114, 216, 0.1337) 20px);
   color: #ecf0f1;
   min-height: 85vh; /* Fast volle Höhe */
 }
@@ -76,8 +77,8 @@ p {
   height: 350px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #3498db;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  border: 8px double #5db9e4;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.444);
 }
 
 .cta-group {

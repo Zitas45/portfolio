@@ -45,12 +45,12 @@ const projects = ref([
 .projects {
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #ecf0f1;
+  background-color: #f8f9fa; /* Light gray background */
 }
 
 .projects h2 {
   font-size: 2.5rem;
-  color: #2c3e50;
+  color: #343a40; /* Darker gray for heading */
   margin-bottom: 2rem;
   font-weight: 700;
 }
@@ -64,20 +64,20 @@ const projects = ref([
 }
 
 .project-card {
-  background: white;
+  background: #ffffff; /* White card background */
   border-radius: 15px;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
   transition: all 0.3s ease;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
 }
 
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
 }
 
 .project-image {
@@ -86,13 +86,10 @@ const projects = ref([
 }
 
 .project-image img {
-  margin-top: 5px;
-  width: 95%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
-  border: 3px solid #2c3e50;
-  border-radius: 15px 15px 0 0
 }
 
 .project-card:hover .project-image img {
@@ -105,12 +102,12 @@ const projects = ref([
 }
 
 .project-info h3 {
-  color: #2c3e50;
+  color: #343a40; /* Dark gray for card title */
   margin-bottom: 0.5rem;
 }
 
 .project-info p {
-  color: #7f8c8d;
+  color: #6c757d; /* Softer gray for text */
   line-height: 1.6;
 }
 </style>

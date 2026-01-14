@@ -8,7 +8,7 @@
       <router-link to="/">Back to Projects</router-link>
     </div>
   </div>
-  <div v-else>
+  <div class="not-found" v-else>
     <p>Project not found.</p>
     <router-link to="/">Back to Projects</router-link>
   </div>
@@ -58,18 +58,81 @@ onMounted(() => {
 
 <style scoped>
 .project-detail {
-  padding: 2rem;
+  padding: 4rem 2rem;
   max-width: 900px;
   margin: auto;
+  text-align: center;
+}
+
+.project-detail h1 {
+  font-size: 3rem;
+  color: #343a40;
+  margin-bottom: 2rem;
+  font-weight: 700;
 }
 
 .project-detail-image {
   width: 100%;
   height: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
 .project-content {
   text-align: left;
+  color: #6c757d;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.project-content h2 {
+  font-size: 2rem;
+  color: #343a40;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.project-content a {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  color: #343a40;
+  border: 2px solid #343a40;
+}
+
+.project-content a:hover {
+  background-color: #343a40;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.not-found {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.not-found a {
+    display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  color: #343a40;
+  border: 2px solid #343a40;
+}
+
+.not-found a:hover {
+    background-color: #343a40;
+  color: #ffffff;
+  transform: translateY(-2px);
 }
 </style>

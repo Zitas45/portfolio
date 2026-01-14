@@ -12,7 +12,23 @@
 
 <style scoped>
 .about-me {
-  padding: 2rem;
+  padding: 4rem 2rem;
   text-align: center;
+  background-color: #ffffff; /* White background */
+}
+
+.about-me h2 {
+  font-size: 2.5rem;
+  color: #343a40; /* Dark gray for heading */
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.about-me p {
+  color: #6c757d; /* Softer gray for text */
+  line-height: 1.8;
+  max-width: 800px; /* Limit width for readability */
+  margin: 0 auto; /* Center the paragraph */
+  font-size: 1.1rem;
 }
 </style>

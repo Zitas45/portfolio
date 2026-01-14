@@ -36,13 +36,13 @@ export default {
 </script>
 <style scoped>
 .navbar {
-  background-color: #2c3e50; /* Dunkles Blau-Grau */
+  background-color: #1e2d3b; /* Dunkles Blau-Grau */
   color: #ecf0f1;
   padding: 1rem 0;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 .container {
