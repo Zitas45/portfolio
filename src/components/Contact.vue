@@ -13,18 +13,18 @@
 .contact {
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #f8f9fa; /* Light gray background */
+  background-color: #2c3e50; /* Light gray background */
 }
 
 .contact h2 {
   font-size: 2.5rem;
-  color: #343a40; /* Dark gray for heading */
+  color: #ecf0f1; /* Dark gray for heading */
   margin-bottom: 1rem;
   font-weight: 700;
 }
 
 .contact p {
-  color: #6c757d; /* Softer gray for text */
+  color: #bdc3c7; /* Softer gray for text */
   line-height: 1.8;
   font-size: 1.1rem;
   margin-bottom: 1rem;

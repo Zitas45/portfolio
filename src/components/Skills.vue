@@ -17,12 +17,14 @@
 .skills {
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #f8f9fa; /* Light gray background */
+  background-color: #3e556d; /* Light gray background */
+  z-index: 20;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.137);
 }
 
 .skills h2 {
   font-size: 2.5rem;
-  color: #343a40; /* Dark gray for heading */
+  color: #ecf0f1; /* Dark gray for heading */
   margin-bottom: 2rem;
   font-weight: 700;
 }

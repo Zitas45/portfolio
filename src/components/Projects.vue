@@ -45,12 +45,12 @@ const projects = ref([
 .projects {
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #f8f9fa; /* Light gray background */
+  background-color: #2c3e50; /* Light gray background */
 }
 
 .projects h2 {
   font-size: 2.5rem;
-  color: #343a40; /* Darker gray for heading */
+  color: #ecf0f1; /* Darker gray for heading */
   margin-bottom: 2rem;
   font-weight: 700;
 }
