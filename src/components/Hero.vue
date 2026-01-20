@@ -2,10 +2,8 @@
   <section class="hero">
     <div class="hero-content">
       <h1>Hi, ich bin <span class="highlight">Silas</span></h1>
-      <h2>Full Stack Developer</h2>
-      <p>
-        Ich entwickle coole Webanwendungen
-      </p>
+      <h2>Wirtschaftsinformatiker</h2>
+
       <div class="cta-group">
         <a href="#projects" class="btn btn-primary">Meine Projekte</a>
         <a href="#contact" class="btn btn-outline">Kontakt</a>
@@ -27,7 +25,7 @@ export default {
   align-items: center;
   justify-content: space-between;
   padding: 4rem 10%; /* Mehr Abstand an den Seiten */
-  background-color: #2c3e50; /* Gleicher Ton wie Header */
+  background-color: #2c3e50;
   background-image: -webkit-repeating-linear-gradient(140deg, rgba(82, 96, 173, 0.1337), rgba(96, 114, 216, 0.1337) 20px);
   color: #ecf0f1;
   min-height: 85vh; /* Fast volle Höhe */

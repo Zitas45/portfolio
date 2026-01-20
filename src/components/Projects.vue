@@ -32,12 +32,7 @@ const projects = ref([
     description: 'This project is currently under development.',
     imageUrl: 'https://via.placeholder.com/300x200.png?text=Coming+Soon',
   },
-  {
-    id: 3,
-    title: 'Coming Soon',
-    description: 'This project is currently under development.',
-    imageUrl: 'https://via.placeholder.com/300x200.png?text=Coming+Soon',
-  },
+
 ]);
 </script>
 
@@ -45,12 +40,12 @@ const projects = ref([
 .projects {
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #2c3e50; /* Light gray background */
+  background-color: #2c3e50; 
 }
 
 .projects h2 {
   font-size: 2.5rem;
-  color: #ecf0f1; /* Darker gray for heading */
+  color: #ecf0f1; 
   margin-bottom: 2rem;
   font-weight: 700;
 }
@@ -64,7 +59,7 @@ const projects = ref([
 }
 
 .project-card {
-  background: #ffffff; /* White card background */
+  background: #ffffff; 
   border-radius: 15px;
   overflow: hidden;
   text-decoration: none;
@@ -102,12 +97,12 @@ const projects = ref([
 }
 
 .project-info h3 {
-  color: #343a40; /* Dark gray for card title */
+  color: #343a40; 
   margin-bottom: 0.5rem;
 }
 
 .project-info p {
-  color: #6c757d; /* Softer gray for text */
+  color: #6c757d; 
   line-height: 1.6;
 }
 </style>
