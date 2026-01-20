@@ -1,6 +1,6 @@
 <template>
   <div class="skills">
-    <h2>My Skills</h2>
+    <h2>Skills</h2>
     <ul>
       <li>Vue.js</li>
       <li>JavaScript</li>
@@ -17,14 +17,14 @@
 .skills {
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #3e556d; /* Light gray background */
+  background-color: #3e556d; 
   z-index: 20;
   box-shadow: 0 0px 15px rgba(0, 0, 0, 0.137);
 }
 
 .skills h2 {
   font-size: 2.5rem;
-  color: #ecf0f1; /* Dark gray for heading */
+  color: #ecf0f1; 
   margin-bottom: 2rem;
   font-weight: 700;
 }
@@ -33,17 +33,17 @@ ul {
   list-style-type: none;
   padding: 0;
   display: flex;
-  flex-wrap: wrap; /* Allow skills to wrap on smaller screens */
+  flex-wrap: wrap; 
   justify-content: center;
-  gap: 1.5rem; /* Increased gap */
+  gap: 1.5rem; 
   margin-top: 1rem;
 }
 
 li {
-  background-color: #eaf4fc; /* Light accent blue background */
-  color: #2c76ac; /* Darker blue text */
+  background-color: #eaf4fc; 
+  color: #2c76ac; 
   padding: 0.8rem 1.8rem;
-  border-radius: 50px; /* Pill shape */
+  border-radius: 50px; 
   font-weight: 500;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   transition: all 0.3s ease;

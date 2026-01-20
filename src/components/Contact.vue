@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
-    <h2>Contact Me</h2>
-    <p>You can reach me at <a href="mailto:silasjunicke@googlemail.com">silasjunicke@googlemail.com</a></p>
+    <h2>Kontakt</h2>
+    <p>Erreichbar unter: <a href="mailto:silasjunicke@googlemail.com">silasjunicke@googlemail.com</a></p>
 
   </div>
 </template>
@@ -13,25 +13,25 @@
 .contact {
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #2c3e50; /* Light gray background */
+  background-color: #2c3e50; 
 }
 
 .contact h2 {
   font-size: 2.5rem;
-  color: #ecf0f1; /* Dark gray for heading */
+  color: #ecf0f1;
   margin-bottom: 1rem;
   font-weight: 700;
 }
 
 .contact p {
-  color: #bdc3c7; /* Softer gray for text */
+  color: #bdc3c7; 
   line-height: 1.8;
   font-size: 1.1rem;
   margin-bottom: 1rem;
 }
 
 .contact a {
-  color: #3498db; /* Accent color for the link */
+  color: #3498db; 
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;

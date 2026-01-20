@@ -3,14 +3,14 @@
     <h1>{{ project.title }}</h1>
     <img :src="project.imageUrl" :alt="project.title" class="project-detail-image">
     <div class="project-content">
-      <h2>About the project</h2>
+      <h2>Über dieses Projekt</h2>
       <p>{{ project.longDescription }}</p>
-      <router-link to="/">Back to Projects</router-link>
+      <router-link to="/">Zurück zu den Projekten</router-link>
     </div>
   </div>
   <div class="not-found" v-else>
     <p>Project not found.</p>
-    <router-link to="/">Back to Projects</router-link>
+    <router-link to="/">Zurück zu den Projekten</router-link>
   </div>
 </template>
 
@@ -22,7 +22,7 @@ import project1Img from '../assets/Opera Momentaufnahme_2026-01-12_134211_zitas4
 const route = useRoute();
 const project = ref(null);
 
-// In a real application, you would fetch this data from an API
+
 const projectsData = {
   1: {
     id: 1,
@@ -32,18 +32,6 @@ const projectsData = {
   },
   2: {
     id: 2,
-    title: 'Coming Soon',
-    longDescription: 'This project is currently in the planning or development phase. More details will be available soon.',
-    imageUrl: 'https://via.placeholder.com/800x400.png?text=Coming+Soon',
-  },
-    3: {
-    id: 3,
-    title: 'Coming Soon',
-    longDescription: 'This project is currently in the planning or development phase. More details will be available soon.',
-    imageUrl: 'https://via.placeholder.com/800x400.png?text=Coming+Soon',
-  },
-    4: {
-    id: 4,
     title: 'Coming Soon',
     longDescription: 'This project is currently in the planning or development phase. More details will be available soon.',
     imageUrl: 'https://via.placeholder.com/800x400.png?text=Coming+Soon',

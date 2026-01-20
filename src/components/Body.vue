@@ -1,6 +1,6 @@
 <template>
   <div class="about-me">
-    <h2>About Me</h2>
+    <h2>Über mich</h2>
     <p>Ich bin ein engagierter Student der Wirtschaftsinformatik an der TU Berlin. Durch mein Studium und meine akademische Laufbahn habe ich fundierte Kenntnisse in der Entwicklung moderner Webtechnologien sowie in Algorithmen und Datenstrukturen erworben. </p>
     <p>Besonders fasziniert mich das Zusammenspiel von Mensch und Maschine, weshalb ich mich in meiner Abschlussarbeit intensiv mit dem wahrgenommenen Risiko von KI-basierten Dienstleistungen im Vergleich zu menschlichen Services auseinandersetze.</p>
     <p>Neben dem Studium engagierte ich mich viele Jahre als Schatzmeister im Unikino der TU Berlin. Dort habe ich gelernt, Verantwortung für Finanzen zu übernehmen und Projekte durch gezielte Marketingstrategien messbar zum Erfolg zu führen.</p>

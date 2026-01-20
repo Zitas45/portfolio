@@ -1,7 +1,7 @@
 <template>
   <header class="navbar">
     <div class="container">
-      <div class="brand">Silas Dev</div>
+      <div class="brand">Silas</div>
       <button class="menu-toggle" @click="toggleMenu" aria-label="Menü umschalten">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -36,7 +36,7 @@ export default {
 </script>
 <style scoped>
 .navbar {
-  background-color: #1e2d3b; /* Dunkles Blau-Grau */
+  background-color: #1e2d3b; 
   color: #ecf0f1;
   padding: 1rem 0;
   position: sticky;
@@ -57,7 +57,7 @@ export default {
 .brand {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #3498db; /* Akzent-Blau */
+  color: #3498db;
   letter-spacing: 1px;
 }
 
@@ -68,7 +68,7 @@ export default {
 
 .nav-links a {
   text-decoration: none;
-  color: #bdc3c7; /* Helles Grau */
+  color: #bdc3c7; 
   font-weight: 500;
   transition: color 0.3s ease;
 }
