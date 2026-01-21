@@ -50,8 +50,8 @@ export default {
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
+  margin: 0;
+  padding: 0 1rem;
 }
 
 .brand {
@@ -63,7 +63,7 @@ export default {
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .nav-links a {

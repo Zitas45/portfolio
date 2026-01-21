@@ -24,11 +24,11 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem 10%; /* Mehr Abstand an den Seiten */
+  padding: 4rem 10%; 
   background-color: #2c3e50;
   background-image: -webkit-repeating-linear-gradient(140deg, rgba(82, 96, 173, 0.1337), rgba(96, 114, 216, 0.1337) 20px);
   color: #ecf0f1;
-  min-height: 85vh; /* Fast volle Höhe */
+  min-height: 85vh; 
 }
 
 .hero-content {
@@ -45,7 +45,7 @@ h1 {
 }
 
 .highlight {
-  color: #3498db; /* Akzentfarbe aus Header */
+  color: #3498db;
 }
 
 h2 {
@@ -86,7 +86,7 @@ p {
 
 .btn {
   padding: 0.8rem 2rem;
-  border-radius: 50px; /* Modernere Pill-Shape */
+  border-radius: 50px; 
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;

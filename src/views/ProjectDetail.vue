@@ -50,11 +50,12 @@ onMounted(() => {
   max-width: 900px;
   margin: auto;
   text-align: center;
+  background-color: #3e556d;
 }
 
 .project-detail h1 {
   font-size: 3rem;
-  color: #343a40;
+  color: #ecf0f1;
   margin-bottom: 2rem;
   font-weight: 700;
 }
@@ -69,14 +70,14 @@ onMounted(() => {
 
 .project-content {
   text-align: left;
-  color: #6c757d;
+  color: #bdc3c7;
   line-height: 1.8;
   font-size: 1.1rem;
 }
 
 .project-content h2 {
   font-size: 2rem;
-  color: #343a40;
+  color: #bdc3c7;
   margin-bottom: 1rem;
   font-weight: 700;
 }
@@ -90,13 +91,13 @@ onMounted(() => {
   font-weight: 600;
   transition: all 0.3s ease;
   background-color: transparent;
-  color: #343a40;
-  border: 2px solid #343a40;
+  color: #ecf0f1;
+  border: 2px solid #ecf0f1;
 }
 
 .project-content a:hover {
-  background-color: #343a40;
-  color: #ffffff;
+  background-color: #ecf0f1;
+  color: #2c3e50;
   transform: translateY(-2px);
 }
 
