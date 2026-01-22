@@ -85,7 +85,8 @@ p {
   object-fit: cover;
   border-radius: 50%;
   border: 8px double #5db9e4;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.444);
+  box-shadow: 0 5px 30px rgba(90, 166, 201, 0.444);
+  animation: blob 20s infinite linear;
 }
 
 .cta-group {
@@ -132,8 +133,14 @@ p {
 }
 @keyframes blink {
   50% { border-right: #000000 2px solid; }
-  
 }
+
+@keyframes blob {
+  0%,100% { border-radius: 42% 56% 72% 38% / 42% 42% 56% 48%; }
+  33% { border-radius: 42% 38% 50% 50% / 38% 38% 72% 72%; }
+  66% { border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%; }
+}
+  
 
 /* Responsive Design */
 @media (max-width: 900px) {
