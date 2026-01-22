@@ -1,7 +1,7 @@
 <template>
   <section class="hero">
     <div class="hero-content">
-      <h1>Hi, ich bin <span class="highlight">Silas</span></h1>
+      <h1 id="h1">Hi, ich bin <span class="highlight">Silas</span></h1>
       <h2>Wirtschaftsinformatiker</h2>
 
       <div class="cta-group">
@@ -18,6 +18,11 @@
 export default {
   name: 'Hero'
 }
+
+setTimeout(() => {
+  document.getElementById("h1").style.animation = "none"
+}, 2000);
+
 </script>
 <style scoped>
 .hero {
@@ -42,6 +47,10 @@ h1 {
   margin-bottom: 0.5rem;
   font-weight: 700;
   line-height: 1.2;
+  animation: typing 2s steps(20), blink 500ms step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  
 }
 
 .highlight {
@@ -114,6 +123,16 @@ p {
   background-color: #ecf0f1;
   color: #2c3e50;
   transform: translateY(-2px);
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%;}
+  
+}
+@keyframes blink {
+  50% { border-right: #000000 2px solid; }
+  
 }
 
 /* Responsive Design */
