@@ -5,7 +5,11 @@
     <div class="project-content">
       <h2>Über dieses Projekt</h2>
       <p>{{ project.longDescription }}</p>
-      <router-link to="/">Zurück zu den Projekten</router-link>
+      <div class="cta-buttons">
+        <a v-if="project.demoUrl" :href="project.demoUrl" target="_blank" rel="noopener noreferrer">Live Demo</a>
+        <a v-if="project.githubUrl" :href="project.githubUrl" target="_blank" rel="noopener noreferrer">GitHub Code</a>
+        <router-link to="/">Zurück zu den Projekten</router-link>
+      </div>
     </div>
   </div>
   <div class="not-found" v-else>
@@ -29,12 +33,16 @@ const projectsData = {
     title: 'Website für den Charlies Campus Filmclub',
     longDescription: 'This is a more detailed description of my awesome project. It covers the technologies used, the challenges faced, and the solutions implemented. The project demonstrates my ability to build a complete application from scratch.',
     imageUrl: project1Img,
+    demoUrl: 'https://zitas45.github.io/unikinoberlin/#/',
+    githubUrl: 'https://github.com/Zitas45/unikinoberlin',
   },
   2: {
     id: 2,
     title: 'Coming Soon',
     longDescription: 'This project is currently in the planning or development phase. More details will be available soon.',
     imageUrl: 'https://via.placeholder.com/800x400.png?text=Coming+Soon',
+    demoUrl: '',
+    githubUrl: '',
   },
 };
 
@@ -82,9 +90,15 @@ onMounted(() => {
   font-weight: 700;
 }
 
+.cta-buttons {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 .project-content a {
   display: inline-block;
-  margin-top: 3rem;
   padding: 0.8rem 2rem;
   border-radius: 50px;
   text-decoration: none;

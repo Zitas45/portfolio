@@ -8,7 +8,6 @@
 </template>
 
 <style>
-/* Globale Styles, um Browser-Standardwerte zurückzusetzen */
 html {
   scroll-behavior: smooth;
 }
@@ -17,18 +16,19 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #ffffff; /* Set a consistent light background */
+  background-color: #3e556d; 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* Stellt sicher, dass die App die volle Höhe einnimmt */
+
 #app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #3e556d;
 }
 
 main {
-  flex: 1; /* Stellt sicher, dass der Hauptinhalt den verfügbaren Platz einnimmt */
+  flex: 1;
 }
 </style>
