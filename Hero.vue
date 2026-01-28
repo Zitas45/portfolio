@@ -16,13 +16,14 @@
 </template>
 <script>
 export default {
-  name: 'Hero'
+  name: 'Hero',
+  mounted() {
+    const h1 = document.getElementById("h1");
+    setTimeout(() => {
+      if (h1) h1.style.animation = "none";
+    }, 2000);
+  }
 }
-
-setTimeout(() => {
-  document.getElementById("h1").style.animation = "none"
-}, 2000);
-
 </script>
 <style scoped>
 .hero {

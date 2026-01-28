@@ -38,9 +38,9 @@ const projects = ref([
 
 <style scoped>
 .projects {
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   text-align: center;
-  background-color: #2c3e50; 
+  background-color: #2c3e5000; 
 }
 
 .projects h2 {

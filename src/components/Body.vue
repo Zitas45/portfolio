@@ -13,9 +13,9 @@
 
 <style scoped>
 .about-me {
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   text-align: center;
-  background-color: #3e556d; 
+  background-color: #3e556d00; 
   z-index: 20;
   box-shadow: 0 0px 15px rgba(0, 0, 0, 0.137);
 }

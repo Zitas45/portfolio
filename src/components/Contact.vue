@@ -11,10 +11,11 @@
 
 <style scoped>
 .contact {
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   text-align: center;
-  background-color: #2c3e50; 
+  background-color: #2c3e5000; 
 }
+
 
 .contact h2 {
   font-size: 2.5rem;
