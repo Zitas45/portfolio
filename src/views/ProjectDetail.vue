@@ -31,7 +31,11 @@ const projectsData = {
   1: {
     id: 1,
     title: 'Website für den Charlies Campus Filmclub',
-    longDescription: 'This is a more detailed description of my awesome project. It covers the technologies used, the challenges faced, and the solutions implemented. The project demonstrates my ability to build a complete application from scratch.',
+    longDescription: `Für das studentische Kino der TU Berlin habe ich eine performante Webanwendung entwickelt, die Studierenden einen schnellen Überblick über kommende Filmvorführungen bietet.
+
+Ziel war es, die statische Informationsverteilung durch eine dynamische, leicht zu wartende Lösung zu ersetzen, die das "Look & Feel" eines Kinos transportiert. Die Frontend-Architektur basiert auf Vue.js 3 (Composition API) und Vite, was für schnelle Ladezeiten und eine flüssige User Experience sorgt.
+
+Als Backend-Service (BaaS) kommt Supabase zum Einsatz. Dies ermöglichte die schnelle Implementierung einer PostgreSQL-Datenbank für die Filmevents sowie eines sicheren Authentifizierungssystems für Administratoren.`,
     imageUrl: project1Img,
     demoUrl: 'https://zitas45.github.io/unikinoberlin/#/',
     githubUrl: 'https://github.com/Zitas45/unikinoberlin',
@@ -54,11 +58,11 @@ onMounted(() => {
 
 <style scoped>
 .project-detail {
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   max-width: 900px;
   margin: auto;
   text-align: center;
-  background-color: #3e556d;
+  background-color: #3e556d00;
 }
 
 .project-detail h1 {
@@ -69,10 +73,10 @@ onMounted(() => {
 }
 
 .project-detail-image {
-  width: 100%;
+  width: 90%;
   height: auto;
   margin-bottom: 3rem;
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
@@ -88,6 +92,10 @@ onMounted(() => {
   color: #bdc3c7;
   margin-bottom: 1rem;
   font-weight: 700;
+}
+
+.project-content p {
+  white-space: pre-line;
 }
 
 .cta-buttons {
